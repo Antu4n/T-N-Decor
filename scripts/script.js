@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const observerOptions = {
         root: null, // use viewport
         rootMargin: '0px',
-        threshold: 0.1 // trigger when 10% of the element is visible
+        threshold: 0.1 
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Animate service cards or scroll-reveal elements
     const serviceCards = document.querySelectorAll('.service-card');
     serviceCards.forEach((card, index) => {
-        card.style.transitionDelay = `${index * 0.15}s`;
+        card.style.transitionDelay = `${index * 0.05}s`;
         observer.observe(card);
     });
 
