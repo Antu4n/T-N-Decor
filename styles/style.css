@@ -390,8 +390,8 @@
     .service-card:hover .service-image {
         transform: scale(1.1);
     }
-
-    .service-image-overlay {
+    
+        .service-image-overlay {
         position: absolute;
         top: 0;
         left: 0;
@@ -803,6 +803,11 @@
         .pricing-grid {
             padding: 0 0.5rem;
         }
+        .scroll-reveal {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 0.8s ease-out;
+    }
     }
 
     /* Large screen optimizations */
@@ -830,9 +835,6 @@
             transform: translateY(0);
         }
     }
-
-
-
 
     /* Floating animation for hero */
     .hero {
