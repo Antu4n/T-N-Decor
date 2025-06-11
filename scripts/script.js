@@ -50,8 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Intersection Observer for animations
     const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
+        root: null, // use viewport
+        rootMargin: '0px',
+        threshold: 0.1 // trigger when 10% of the element is visible
     };
 
     const observer = new IntersectionObserver((entries) => {
