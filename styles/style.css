@@ -457,6 +457,20 @@
         background: var(--primary-gradient);
     }
 
+    div #additionalInfo{
+        margin: auto;
+        padding: 1rem;
+        max-width: 500px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow);
+        font-size: clamp(0.9rem, 2vw, 1.1rem);
+        line-height: 1.6;
+        margin-top: 2rem;
+
+        
+    }
+
     /* Pricing Section */
     .pricing-section {
         background: var(--pricing-gradient);
