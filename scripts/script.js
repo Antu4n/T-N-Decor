@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Animate service cards or scroll-reveal elements
     const serviceCards = document.querySelectorAll('.service-card');
     serviceCards.forEach((card, index) => {
-        card.style.transitionDelay = `${index * 0.04}s`;
+        card.style.transitionDelay = `${index * 0.15}s`;
         observer.observe(card);
     });
 
