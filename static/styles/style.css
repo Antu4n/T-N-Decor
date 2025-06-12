@@ -139,7 +139,7 @@
         padding: clamp(3rem, 8vw, 6rem) 0;
         position: relative;
         overflow: hidden;
-        background: url('../Images/img4.jpg');
+        /* background: url('../Images/img4.jpg'); */
         background-position: center;
         display: flex;
         align-items: center;
